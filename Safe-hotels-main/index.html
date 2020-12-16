@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=h1, initial-scale=1.0" />
+	<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	<link rel="stylesheet" href="https://use.typekit.net/taa3gsj.css" />
+
+	<meta name="description" content="safe hotels is a hotel safety and security certification company" />
+	<meta name="keywords" content=" hotel safety , certification " />
+	<meta name="author" content="safe hotels" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src='./src/include.js'></script>
+	<script src='./src/Cart.js'></script>
+	<title>Safe Hotels</title>
+</head>
+
+<body>
+
+	<!-- ---------header---------- -->
+	<header class="header-home">
+		<div class="nav-container">
+			<nav>
+				<ul>
+					<li>
+						<a href="./about.html">About</a>
+					</li>
+					<li>
+						<a href="./certifications.html">Safehotels Certifications</a>
+					</li>
+					<li>
+						<a href="./e-learning.html">E-learning Courses</a>
+					</li>
+					<li>
+						<a href="./certification-benefits.html">Certification Benefits</a>
+					</li>
+				</ul>
+				<div class="logo">
+					<a href="./index.html"><img src="./assets/Logo.svg" alt="logo" /></a>
+				</div>
+				<ul>
+					<li>
+						<a href="./certified-hotels.html">Certified Hotels</a>
+					</li>
+					<li>
+						<a href="./references.html">References</a>
+					</li>
+					<li>
+						<a href="./news.html">News</a>
+					</li>
+					<li>
+						<a href="#" id='lnkStore'>Store</a>
+					</li>
+					<li class="select-language">
+						<span><img src="./assets/Path 770.svg" alt="Language" /></span>
+						<select name="cars" id="cars">
+							<option value="volvo">En</option>
+							<option value="saab">Sv</option>
+							<option value="opel">Ge</option>
+							<option value="audi">Ru</option>
+						</select>
+					</li>
+					<li>
+						<div>
+						<div id='lnkCart' class='divProdInfo'>Cart 
+						</div>
+						<div id='divCartCount' class='divProdInfo'>
+						</div>
+						<div>
+					</li>
+
+
+				</ul>
+			</nav>
+			<section>
+				<div id='indexDiv' class='backdrop'>
+					<div id='divCart'>
+						<div id='divCartContainer'>
+							<div id='divCartTitle'>
+								<h1>Cart</h1>
+							</div>
+							<div id='divCartEdit'>
+								Edit Order
+							</div>
+
+						</div>
+
+						<div class='rowLine'></div>
+						<div id='divCartItems'>
+						</div>
+						<div>
+							<div class="row">
+								<div class="column" style='padding-right:30px'><a id='lnkSeeCart'
+										style="font-size:small" href='https://www.w3schools.com'><span><b>See
+												Cart</b></span></a></div>
+								<div class="column"></div>
+								<div class="column"><button id="btnAddToCart"><span
+											style="font-size:11px"><b>CHECKOUT</b></button></span></div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+		</div>
+	</header>
+
+	<div id='tabContainer'>
+
+	</div>
+
+	<div id='chkCart'>
+		<div  id='divPaymentDisp'>
+			<div>
+				<div style='padding-bottom:15px'>
+					<div style='font-size: xxx-large;font-weight: 700;'>Billing Details</div>
+					<div style='font-size:14px; width:60%'>geddegdevdegdvegvdgevdgedvgevdgv</div>
+				</div>
+<div style="width:60%">
+				<div class="div50">
+					<div class="title">Company name</div>
+					<input id="company" value="John's company" size="15" class='input2'/>
+				</div>
+					
+				<div class="div50">
+					<div class="title">Contact name</div>
+					<input id="contact" value="John" size="15" class='input2' />
+				</div>
+				<div class="div50">
+					<div class="title">Company name</div>
+					<input id="company" value="John's company" size="15" class='input2'/>
+				</div>
+					
+				<div class="div50">
+					<div class="title">Contact name</div>
+					<input id="contact" value="John" size="15" class='input2' />
+				</div>
+				<div class="div50">
+					<div class="title">Company name</div>
+					<input id="company" value="John's company" size="15" class='input2'/>
+				</div>
+					
+				<div class="div50">
+					<div class="title">Contact name</div>
+					<input id="contact" value="John" size="15" class='input2' />
+				</div>
+				<div class="div50">
+					<div class="title">Company name</div>
+					<input id="company" value="John's company" size="15" class='input2'/>
+				</div>
+					
+				<div class="div50">
+					<div class="title">Contact name</div>
+					<input id="contact" value="John" size="15" class='input2' />
+				</div>
+				<div class="div50">
+					<div class="title">Company name</div>
+					<input id="company" value="John's company" size="15" class='input2'/>
+				</div>
+					
+				<div class="div50">
+					<div class="title">Contact name</div>
+					<input id="contact" value="John" size="15" class='input2' />
+				</div>
+			</div>
+
+				</div>
+
+			
+
+		</div>
+		<div  id='divPaymentBill' style='background-color: green;'>
+asdfsfsf
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- -------------------Chat------------------------ -->
+	<div class="chat">
+		<img src="./assets/Chat.svg" alt="Chat" />
+	</div>
+
+	<!-- -------------hero section------ -->
+	<section class="hero">
+		<div class="image-container">
+			<div class="content">
+				<h1>
+					The Worlds leading hotel <br />
+					safety and security <br />
+					certification company
+				</h1>
+				<p>
+					Safehotels is the only, independent hotel certification company with
+					global reach across the world. Lorem ipsum dolor sit amet
+					consectetur adipisicing elit. Quis doloribus voluptatum veritatis
+					est quod laboriosam voluptas! Officiis.
+				</p>
+				<a href="/about.html">About us</a>
+			</div>
+		</div>
+		<div class="accept-cookies .b2" id='divCookies'>
+			<p>We use <span>cookies</span></p>
+			<button class="accept">Accept</button>
+			<span>Decline</span>
+		</div>
+	</section>
+	<section class="why-safehotels">
+		<h2>Why Safehotels?</h2>
+		<div class="row">
+			<h3>
+				With over 50 years in the business we have certified over 3500 hotels
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+				magni ut? Id dolorem corporis aut ipsa ipsum explicabo? Quos ratione
+				consequuntur tempore aliquid quis error? Itaque nihil dolore rem dolor
+				eos cumque soluta ipsam pariatur totam provident tenetur, laudantium
+				architecto nostrum, autem voluptates doloribus iure neque eligendi
+				maiores reprehenderit animi voluptate nesciunt tempore maxime! Ratione
+				laboriosam blanditiis earum distinctio. Obcaecati!
+			</p>
+		</div>
+		<div class="row">
+			<h3>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+				praesentium et quos, nisi dignissimos amet nihil fuga voluptatem!
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+				magni ut? Id dolorem corporis aut ipsa ipsum explicabo? Quos ratione
+				consequuntur tempore aliquid quis error? Itaque nihil dolore rem dolor
+				eos cumque soluta ipsam pariatur totam provident tenetur, laudantium
+				architecto nostrum, autem voluptates doloribus iure neque eligendi
+				maiores reprehenderit animi voluptate nesciunt tempore maxime! Ratione
+				laboriosam blanditiis earum distinctio. Obcaecati!
+			</p>
+		</div>
+		<div class="row">
+			<h3>
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+				adipisci fugit nisi qui reprehenderit est quos officia, doloribus
+				expedita.
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+				magni ut? Id dolorem corporis aut ipsa ipsum explicabo? Quos ratione
+				consequuntur tempore aliquid quis error? Itaque nihil dolore rem dolor
+				maiores reprehenderit animi voluptate nesciunt tempore maxime! Ratione
+				laboriosam blanditiis earum distinctio. Obcaecati!
+			</p>
+		</div>
+		<div class="row">
+			<h3>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+				deserunt.
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+				magni ut? Id dolorem corporis aut ipsa ipsum explicabo? Quos ratione
+				consequuntur tempore aliquid quis error? Itaque nihil dolore rem dolor
+				laboriosam blanditiis earum distinctio. Obcaecati!
+			</p>
+		</div>
+		<div class="link-to-about">
+			<a href="/about.html">About us</a>
+		</div>
+	</section>
+	<!-- ------------certification benefits----------------  -->
+	<section class="certefication-benifits">
+		<h2>Certification Benifits</h2>
+		<div class="slider-container">
+			<div class="individual-slide">
+				<img src="/assets/certification-benifits-1.jpg" alt="hotel owners" />
+				<h3>Hotel Owners</h3>
+			</div>
+			<div class="individual-slide">
+				<img src="/assets/certification-benifits-2.jpg" alt="hotel owners" />
+				<h3>Corporates</h3>
+			</div>
+			<div class="individual-slide">
+				<img src="/assets/certification-benifits-3.jpg" alt="hotel owners" />
+				<h3>Travel Managers</h3>
+			</div>
+		</div>
+	</section>
+	<!-- -------------------We are hotel years---------------------- -->
+	<section class="we-are-hotel-years">
+		<h2>We are hotel years - future proof your business</h2>
+		<div class="card-container">
+			<div class="card">
+				<h3>
+					Safehotels <br />
+					CovidClean <br />
+					Certification <br />
+				</h3>
+				<button>Order</button>
+			</div>
+
+			<div class="card">
+				<h3>
+					Safehotels <br />
+					Safety & Security <br />
+					Certification <br />
+				</h3>
+				<button>Order</button>
+			</div>
+			<div class="card">
+				<h3>
+					E-learning <br />
+					Courses <br />
+				</h3>
+				<button>Order</button>
+			</div>
+		</div>
+	</section>
+	<!-- -----------------happy partners------------------------ -->
+	<section class="happy-partners">
+		<h2>Our happy partners</h2>
+		<div class="partners-container">
+			<img src="/assets/partner-logo.jpg" alt="happy partners" />
+			<img src="/assets/partner-logo.jpg" alt="happy partners" />
+			<img src="/assets/partner-logo.jpg" alt="happy partners" />
+			<img src="/assets/partner-logo.jpg" alt="happy partners" />
+			<img src="/assets/partner-logo.jpg" alt="happy partners" />
+		</div>
+	</section>
+	<!-- ----------------------happy hotels----------------------------- -->
+	<section class="happy-hotels">
+		<h2>Our happy hotels</h2>
+		<div class="happy-hotels-container">
+			<img src="/assets/hotel-logo.jpg" alt="happy hotels" />
+			<img src="/assets/hotel-logo.jpg" alt="happy hotels" />
+			<img src="/assets/hotel-logo.jpg" alt="happy hotels" />
+			<img src="/assets/hotel-logo.jpg" alt="happy hotels" />
+			<img src="/assets/hotel-logo.jpg" alt="happy hotels" />
+		</div>
+	</section>
+	<!-- --------------------news---------------------------------------- -->
+	<section class="news">
+		<h2>Discover our news and press releases</h2>
+		<div class="news-post-container">
+			<img src="/assets/news (1).jpg" alt="news" />
+			<div class="news-text-container">
+				<span>16 sept 2021</span>
+				<h3>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+					nemo.
+				</h3>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+					saepe quam aspernatur! Quos laudantium dolore quae nam expedita
+					obcaecati commodi et, quod harum vel. Consequatur quis obcaecati
+					eum!
+				</p>
+				<a href="#"><img src="/assets/right-arrow.svg" alt="right-arrow" /></a>
+			</div>
+		</div>
+		<div class="news-post-container">
+			<img src="/assets/news (2).jpg" alt="news" />
+			<div class="news-text-container">
+				<span>16 sept 2021</span>
+				<h3>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+					nemo.
+				</h3>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+					saepe quam aspernatur! Quos laudantium dolore quae nam expedita
+					obcaecati commodi et, quod harum vel. Consequatur quis obcaecati
+					eum!
+				</p>
+				<a href="#"><img src="/assets/right-arrow.svg" alt="right-arrow" /></a>
+			</div>
+		</div>
+		<div class="news-post-container">
+			<img src="/assets/news (3).jpg" alt="news" />
+			<div class="news-text-container">
+				<span>16 sept 2021</span>
+				<h3>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+					nemo.
+				</h3>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+					saepe quam aspernatur! Quos laudantium dolore quae nam expedita
+					obcaecati commodi et, quod harum vel. Consequatur quis obcaecati
+					eum!
+				</p>
+				<a href="#"></a>
+			</div>
+		</div>
+		<div class="view-more">
+			<a href="#">View more <img src="/assets/right-arrow.svg" alt="right-arrow" /></a>
+		</div>
+	</section>
+	<!-- -----------------------------Contact----------------------------------- -->
+	<section class="contact">
+		<div class="contact-info-container">
+			<h2>Contact us</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+				veritatis provident a, perspiciatis dolorum, ea aliquam aliquid
+				repudiandae reprehenderit accusamus vero, ut quas modi fugiat
+				consectetur nesciunt sapiente fuga illum necessitatibus quae dicta
+				maiores temporibus totam quod. Voluptates dolor maxime eaque qui
+				veritatis, quaerat excepturi doloribus reiciendis rerum cupiditate
+				quos eos, quibusdam veniam aut iure numquam cumque cum perferendis
+				perspiciatis!
+			</p>
+			<h2>Follow us</h2>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi,
+				illo libero deleniti quisquam qui enim iusto sapiente saepe! Voluptate
+				accusantium laborum voluptas aperiam repellat esse quod corrupti?
+			</p>
+			<div class="social-icons">
+				<img src="/assets/instagram.svg" alt="social icon" />
+				<img src="/assets/facebook.svg " alt="social icon" />
+				<img src="/assets/twitter.svg " alt="social icon" />
+				<img src="/assets/linked-in.svg" alt="social icon" />
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<h3>
+				Request a proposal for Safehotels Certification <br />
+				Enter maain forms
+			</h3>
+
+			<form action="" class="form">
+				<input type="text" name="" id="" placeholder="First Name" />
+				<input type="text" name="" id="" placeholder="Last Name" />
+				<input type="email" name="" id="" placeholder="Email" />
+				<input type="text" name="" id="" placeholder="Subject" />
+				<textarea class="fullwidth" placeholder="Message" rows="10"></textarea>
+				<div>
+					<button type="submit" class="submit">Send</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- -----------------------footer------------------------------- -->
+	<footer>
+		<div class="footer-container">
+			<div class="column-one">
+				<div class="address-links">
+					<div class="logo">
+						<img src="/assets/footer-logo.svg" alt="logo" />
+					</div>
+
+					<ul>
+						<li>Stora Avagen 21</li>
+						<li>436 34 Askim</li>
+						<li>Gothenburg</li>
+						<li>Sweden</li>
+						<li class="margin-top">
+							<a href="tel:+46345678903">+46 345 678 903</a>
+						</li>
+						<li>
+							<a href="mailto:info@safehotels.com">info@safehotels.com</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="about-links">
+					<h3 class="">About</h3>
+					<ul>
+						<li><a href="#">How Safehotels works</a></li>
+						<li><a href="#">Certificate benifits</a></li>
+						<li><a href="#">Certificate hotels</a></li>
+						<li><a href="#">Newsroom</a></li>
+						<li><a href="#">work with us</a></li>
+					</ul>
+				</div>
+
+				<div class="support-links">
+					<h3 class="">support</h3>
+					<ul>
+						<li><a href="#">Our COVID-19 Response</a></li>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Safety and Security check</a></li>
+						<li><a href="#">Covid Clean</a></li>
+						<li><a href="#">Certifying online Courses</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="column-two">
+				<div class="news-letter">
+					<h3 class="">Newsletter</h3>
+					<p>Subscribe to Safehotels via Email</p>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					<form action="">
+						<input type="email" name="" id="" placeholder="Email Address" />
+						<button type="submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<section class="footer-bottom">
+			<p>&#169; 2021 Safehotels. All Rights Reserved.</p>
+			<div class="bottom-links">
+				<ul>
+					<li class="pipe-symbol">
+						<a href="/terms.html">Terms & Conditions</a>
+					</li>
+					<li class="pipe-symbol">
+						<a href="/privacy.html">Privacy Policy</a>
+					</li>
+					<li class="pipe-symbol"><a href="#">Accessibility</a></li>
+					<li><a href="#">Company details</a></li>
+				</ul>
+			</div>
+		</section>
+	</footer>
+
+
+
+</body>
+
+</html>
